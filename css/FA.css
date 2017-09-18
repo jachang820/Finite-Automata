@@ -1,0 +1,28 @@
+#state-count {
+	display: none;
+}
+
+[contenteditable="true"]:active,
+[contenteditable="true"]:focus{
+	border:none;
+	outline:none;
+}
+
+.state {
+	position: absolute;
+	height: 5em;
+	width: 5em;
+	border: solid;
+	border-width: 2px;
+	border-radius: 5em;
+	margin: 0;
+}
+
+.state span{
+	position: block;
+	font-size: 16px;
+	padding: 25%;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+}
